@@ -1,3 +1,5 @@
+import Injection from "@/Components/security/FrontEnd/Injection";
+import { Input } from "antd";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
+
+            <Injection content='test' />
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -50,6 +54,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a

@@ -1,0 +1,15 @@
+{
+    "jsc": {
+      "parser": {
+        "syntax": "typescript", // Nếu dùng TypeScript
+        "tsx": true, // Nếu dùng TSX
+        "decorators": true // Nếu dùng decorators
+      },
+      "target": "es2020", // Hoặc phiên bản JS bạn muốn
+      "transform": {
+        "react": {
+          "runtime": "automatic" // Tương thích với Next.js React
+        }
+      }
+    }
+  }
