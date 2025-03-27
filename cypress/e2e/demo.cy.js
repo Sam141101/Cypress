@@ -8,6 +8,4 @@ describe('Login Test', () => {
         cy.get('img[alt="Next.js logo"]').should('be.visible');
         cy.url().should('include', '/'); // 4. Kiểm tra điều hướng thành công
     });
-
-   
 });
